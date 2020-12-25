@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navProfileTalent"
+        android:icon="@drawable/ic_user_circle_24"
+        android:title="PROFILE" />
+
+    <item
+        android:id="@+id/navJobTalent"
+        android:icon="@drawable/ic_search_24"
+        android:title="JOBLIST" />
+
+    <item
+        android:id="@+id/navStatusJobTalent"
+        android:icon="@drawable/ic_status_24"
+        android:title="STATUS JOB" />
+
+
+
+</menu>

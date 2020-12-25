@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/actionUpdateJob"
+        android:icon="@drawable/ic_user_circle_24"
+        android:title="UPDATE" />
+
+    <item
+        android:id="@+id/actionDeleteJob"
+        android:icon="@drawable/ic_document_24"
+        android:title="DELETE" />
+
+</menu>

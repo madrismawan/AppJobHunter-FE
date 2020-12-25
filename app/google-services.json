@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "736083342958",
+    "project_id": "pratikum19",
+    "storage_bucket": "pratikum19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:736083342958:android:791810cf4a35d36f8d987f",
+        "android_client_info": {
+          "package_name": "com.rismawan.jobhunter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "736083342958-ond3o21r23ovq7i4pieq5s3ga4vk3ma5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAedaNEXLyEhu0MChySg29GAvO_81h9GPA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "736083342958-ond3o21r23ovq7i4pieq5s3ga4vk3ma5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
