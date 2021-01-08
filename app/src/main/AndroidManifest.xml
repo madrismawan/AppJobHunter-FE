@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.rismawan.jobhunter">
+    package="com.pratikum19.jobhunter">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -12,20 +12,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.JobHunter">
-        <activity android:name=".ActiveUser.Employer.KonfirmasiJob"></activity>
-        <activity android:name=".ActiveUser.Talent.RequestJobTalent" />
+        <activity android:name="com.pratikum19.jobhunter.ActiveUser.Employer.KonfirmasiJob"></activity>
+        <activity android:name="com.pratikum19.jobhunter.ActiveUser.Talent.RequestJobTalent" />
         <activity
-            android:name=".ActiveUser.Employer.EmployerUpdateJob"
-            android:parentActivityName=".ActiveUser.Employer.EmployerActivity" />
+            android:name="com.pratikum19.jobhunter.ActiveUser.Employer.EmployerUpdateJob"
+            android:parentActivityName="com.pratikum19.jobhunter.ActiveUser.Employer.EmployerActivity" />
         <activity
-            android:name=".ActiveUser.Employer.EmployerAddJob"
-            android:parentActivityName=".ActiveUser.Employer.EmployerActivity" />
-        <activity android:name=".ActiveUser.Talent.TalentActivity" />
-        <activity android:name=".ActiveUser.Employer.EmployerActivity" />
-        <activity android:name=".Auth.Registrasi" />
-        <activity android:name=".Auth.Login" />
+            android:name="com.pratikum19.jobhunter.ActiveUser.Employer.EmployerAddJob"
+            android:parentActivityName="com.pratikum19.jobhunter.ActiveUser.Employer.EmployerActivity" />
+        <activity android:name="com.pratikum19.jobhunter.ActiveUser.Talent.TalentActivity" />
+        <activity android:name="com.pratikum19.jobhunter.ActiveUser.Employer.EmployerActivity" />
+        <activity android:name="com.pratikum19.jobhunter.Auth.Registrasi" />
+        <activity android:name="com.pratikum19.jobhunter.Auth.Login" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.pratikum19.jobhunter.MainActivity"
             android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,6 +33,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <service
+            android:name=".FCM.NotificationService"
+            android:enabled="true"
+            android:exported="true"
+            >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name=".FCM.TokenFCM">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+
+
     </application>
 
 </manifest>

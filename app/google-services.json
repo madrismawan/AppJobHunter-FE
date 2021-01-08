@@ -1,33 +1,92 @@
 {
   "project_info": {
-    "project_number": "736083342958",
-    "project_id": "pratikum19",
-    "storage_bucket": "pratikum19.appspot.com"
+    "project_number": "815803349529",
+    "firebase_url": "https://notifikasiprogmob.firebaseio.com",
+    "project_id": "notifikasiprogmob",
+    "storage_bucket": "notifikasiprogmob.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:736083342958:android:791810cf4a35d36f8d987f",
+        "mobilesdk_app_id": "1:815803349529:android:009926c4c77c3faa14c888",
         "android_client_info": {
-          "package_name": "com.rismawan.jobhunter"
+          "package_name": "com.example.tgs4"
         }
       },
       "oauth_client": [
         {
-          "client_id": "736083342958-ond3o21r23ovq7i4pieq5s3ga4vk3ma5.apps.googleusercontent.com",
+          "client_id": "815803349529-hvjin3ovtlgm09ga6lsfj5bjdf4kks8t.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAedaNEXLyEhu0MChySg29GAvO_81h9GPA"
+          "current_key": "AIzaSyD1Tf_ba1MzlQrFNboG9bqScAX6ufNWp2M"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "736083342958-ond3o21r23ovq7i4pieq5s3ga4vk3ma5.apps.googleusercontent.com",
+              "client_id": "815803349529-hvjin3ovtlgm09ga6lsfj5bjdf4kks8t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815803349529:android:090cda40bb4b6cd814c888",
+        "android_client_info": {
+          "package_name": "com.pratikum19.jobhunter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "815803349529-hvjin3ovtlgm09ga6lsfj5bjdf4kks8t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1Tf_ba1MzlQrFNboG9bqScAX6ufNWp2M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "815803349529-hvjin3ovtlgm09ga6lsfj5bjdf4kks8t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815803349529:android:c0f34566a4f7da3914c888",
+        "android_client_info": {
+          "package_name": "com.rismawan.tgs8testnotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "815803349529-hvjin3ovtlgm09ga6lsfj5bjdf4kks8t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1Tf_ba1MzlQrFNboG9bqScAX6ufNWp2M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "815803349529-hvjin3ovtlgm09ga6lsfj5bjdf4kks8t.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

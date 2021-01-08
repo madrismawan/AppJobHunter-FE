@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">jobHunter</string>
+    <string name="app_name">JOBHUNTER</string>
 
     <string-array name="role">
         <item>Talent</item>

@@ -21,7 +21,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="60dp"
                 android:text="PROFILE EMPLOYER"
                 android:textSize="25dp"
                 android:layout_marginBottom="50dp"
@@ -60,24 +59,24 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_gravity="center"
             android:gravity="center"
-            android:padding="10dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:padding="10dp">
 
             <Button
                 android:id="@+id/btnUpdate"
-                android:layout_margin="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="20dp"
                 android:text="Update" />
 
             <Button
                 android:id="@+id/btnLogout"
-                android:layout_margin="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="20dp"
                 android:text="LogOut" />
         </LinearLayout>
 
